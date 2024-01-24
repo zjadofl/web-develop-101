@@ -18,7 +18,7 @@ class App extends React.Component {
     item.done = false; // done 초기화
     thisItems.push(item); // 리스트에 아이템 추가
     this.setState({items:thisItems}); // 업데이트는 반드시 this.setState로 해야 됨
-    console.log("items: ", this.state.items.items);
+    console.log("items: ", this.state.items);
   }
 
   delete = (item) => {
