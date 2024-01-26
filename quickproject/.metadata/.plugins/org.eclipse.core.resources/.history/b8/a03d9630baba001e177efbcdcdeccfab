@@ -1,0 +1,10 @@
+package com.example.demo.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration // 스프링 빈으로 등록
+public class WebMvcConfig {
+	private final long MAX_AGE_SECS = 3600;
+	
+
+}
